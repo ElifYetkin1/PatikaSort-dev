@@ -1,0 +1,14 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+
+         7
+        / \
+       5   8
+      / \   \
+     1   6   9
+    / \
+   0   3
+      / \
+     2   4
+
+Öncelikle Root'u bulmamız gerekir. Bu da dizinin ilk elemanıdır. Yani root değerimiz 7. Her adımdan kökten küçük elemanlar sola, büyük elemanlar sağa yazılacak şekilde ağaç oluşturulur.
