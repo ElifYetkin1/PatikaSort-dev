@@ -1,0 +1,23 @@
+16,21,11,8,12,22] Yandaki dizinin merge sort türüne göre aşamalarını yazınız.
+1.adım: [16,21,11] … [8,12,22]
+
+Diziyi ik parçaya bölüyoruz.
+
+2.adım: [16] , [21,11] … [8] , [12,22]
+
+Diziyi yeniden her bir parça için ikiye ayırıyoruz.
+
+3.adım: [16] , [21] , [11] … [8] , [12] , [22]
+
+Tek eleman kalıncaya kadar işleme devam ediyoruz.
+
+4.adım: [16] , [11,21] … [8] , [12,22]
+
+Sondan başlanarak diziler sıralı bir şekilde birleştiriyoruz.
+
+5.adım: [11,16,21] … [8,12,22]
+
+6.adım: [8,11,12,16,21,22]
+
+Yukarıda verilen dizinin Big-O gösterimini yazınız.
+Her adımda oluşan diziler ikiye bölündüğü için her adımda n elemana karşı logn kadar işlem yaparız. Bu nedenle big o notation gösterimi O(nlogn) olur.
